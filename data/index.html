@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script>
+function makeUl( names ){
+    const texturionPrefix="https://mki1967.github.io/texturion/?input=";
+    let base=document.URL;
+    let ul="<ul>\n";
+    for( let i=0; i<names.length; i++){
+	url=new URL(names[i], base );
+	ul+="<li>"+
+            "<a href='"+texturionPrefix+url+"'>"+names[i]+"</a>"+
+            "</li>\n"
+    }
+    ul+="</ul>\n";
+    return ul;
+}
+window.onload = function(){
+  var names=[];
+  names.push("abs-cos-xy.texturion");
+  names.push("abs-sin2-magenta-bright.texturion");
+  names.push("abs-sin2-rb.texturion");
+  names.push("abs-sin2-rc.texturion");
+  names.push("abs-sin2.texturion");
+  names.push("abs-sin.texturion");
+  names.push("abs-sin_xy-blue.texturion");
+  names.push("abs-sin-xy-bright-blue.texturion");
+  names.push("abs-sin-xy-bright-cyan.texturion");
+  names.push("abs-sin-xy-bright-gold.texturion");
+  names.push("abs-sin-xy-bright-green.texturion");
+  names.push("abs-sin-xy-bright-magenta.texturion");
+  names.push("abs-sin-xy-bright-red.texturion");
+  names.push("abs-sin-xy-bright-white.texturion");
+  names.push("abs-sin-xy.texturion");
+  names.push("BAD_TEXTURE.texturion");
+  names.push("blue-waves.texturion");
+  names.push("boulder-cyan.texturion");
+  names.push("boulder-green.texturion");
+  names.push("boulders-blue.texturion");
+  names.push("boulder-white.texturion");
+  names.push("braun-grained.texturion");
+  names.push("cos_2y_plus_cos_2x.texturion");
+  names.push("cos_sqrt_xx_yy.texturion");
+  names.push("cos-square-waves-blue.texturion");
+  names.push("cos-square-waves-cyan.texturion");
+  names.push("cos-square-waves-green.texturion");
+  names.push("cos-square-waves-magenta.texturion");
+  names.push("cos-square-waves-yellow.texturion");
+  names.push("cos_x_times_cos_y.texturion");
+  names.push("cos_xx_yy.texturion");
+  names.push("cos_y-xx.texturion");
+  names.push("cos_y-xxx.texturion");
+  names.push("cos_y-xx_x_yy.texturion");
+  names.push("cyan-waves.texturion");
+  names.push("diamonts-cos-big.texturion");
+  names.push("diamonts-cos-big-yellow.texturion");
+  names.push("diamonts-cos.texturion");
+  names.push("green-grained-vertical.texturion");
+  names.push("green-wool.texturion");
+  names.push("grey-bricks3-fat-white-fugue.texturion");
+  names.push("grey-waves-horizontal.texturion");
+  names.push("magenta-grained.texturion");
+  names.push("max_cos_x_cos_y-white.texturion");
+  names.push("max_cos_x_minus_y_cos_x_plus_y-blue.texturion");
+  names.push("max_cos_xx_cos_yy-white.texturion");
+  names.push("min_cos_x_cos_y-blue.texturion");
+  names.push("min_cos_x_cos_y-white.texturion");
+  names.push("min_cos_x_minus_y_cos_x_plus_y-blue.texturion");
+  names.push("multi-sin-blue-light-flat.texturion");
+  names.push("multi-sin-blue-light.texturion");
+  names.push("multi-sin-blue.texturion");
+  names.push("multi-sin-brown-light-flat.texturion");
+  names.push("multi-sin-brown-light.texturion");
+  names.push("multi-sin-cyan-flat.texturion");
+  names.push("multi-sin-dark-green-flat.texturion");
+  names.push("multi-sin-green-flat.texturion");
+  names.push("multi-sin-red.texturion");
+  names.push("multi-sin-white-flat.texturion");
+  names.push("multi-sin-white.texturion");
+  names.push("multi-sin-yellow-flat.texturion");
+  names.push("myTexture.texturion");
+  names.push("read-grained.texturion");
+  names.push("roof-lines-red.texturion");
+  names.push("roof-tile-red.texturion");
+  names.push("r-sin-bg-cos.texturion");
+  names.push("sin_2y_plus_sin_2x.texturion");
+  names.push("sin_abs_xy.texturion");
+  names.push("sin-cos-lines-white.texturion");
+  names.push("sin-fish-dark-green-flat.texturion");
+  names.push("sin-fish-white.texturion");
+  names.push("sin-square-waves-brown.texturion");
+  names.push("sin-square-waves-cyan.texturion");
+  names.push("sin-square-waves-green.texturion");
+  names.push("sin-square-waves-magenta.texturion");
+  names.push("sin-square-waves-white.texturion");
+  names.push("sin_x_cos_sin.texturion");
+  names.push("sin_x_cos_y_brown.texturion");
+  names.push("sin_x_cos_y_green.texturion");
+  names.push("sin_y_plus_sin_x.texturion");
+  names.push("sin_y_times_cos_x.texturion");
+  names.push("sin_y_times_sin_x.texturion");
+  names.push("vertical-waves-green.texturion");
+  names.push("violet_x_green_waves.texturion");
+  names.push("yellow-black-sq-stains.texturion");
+  names.push("yellow-skew-waves.texturion");
+  document.getElementById("items").innerHTML= makeUl( names );
+}
+</script>
+  </head>
+  <body>
+    <h2>TEXTURION DATA:</h2>
+    <code></code>
+    <div id='items'>
+    </div>
+  </body>
+</html>

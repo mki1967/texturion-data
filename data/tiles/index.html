@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script>
+function makeUl( names ){
+    const texturionPrefix="https://mki1967.github.io/texturion/?input=";
+    let base=document.URL;
+    let ul="<ul>\n";
+    for( let i=0; i<names.length; i++){
+	url=new URL(names[i], base );
+	ul+="<li>"+
+            "<a href='"+texturionPrefix+url+"'>"+names[i]+"</a>"+
+            "</li>\n"
+    }
+    ul+="</ul>\n";
+    return ul;
+}
+window.onload = function(){
+  var names=[];
+  names.push("diamond-tiles-blue-fat.texturion");
+  names.push("diamond-tiles.texturion");
+  names.push("diamond-tiles-white-2-fat.texturion");
+  names.push("square-tiles-cyan-2-fat.texturion");
+  names.push("square-tiles-fat-cyan-black-lines.texturion");
+  names.push("square-tiles-fat-cyan.texturion");
+  names.push("square-tiles-fat-magenta.texturion");
+  names.push("square-tiles-fat.texturion");
+  names.push("square-tiles-grey-2-fat.texturion");
+  names.push("square-tiles-magenta-2-fat.texturion");
+  names.push("square-tiles.texturion");
+  names.push("square-tiles-white-2-fat.texturion");
+  names.push("square-tiles-white-2.texturion");
+  names.push("square-tiles-white.texturion");
+  names.push("square-tiles-yellow-2-fat.texturion");
+  names.push("square-tiles-yellow-2.texturion");
+  names.push("star-tiles-fat-blue-white.texturion");
+  names.push("star-tiles-fat-blue-yellow.texturion");
+  names.push("star-tiles-fat-cyan.texturion");
+  names.push("star-tiles-fat-white.texturion");
+  names.push("star-tiles-fat-yellow.texturion");
+  names.push("star-tiles.texturion");
+  document.getElementById("items").innerHTML= makeUl( names );
+}
+</script>
+  </head>
+  <body>
+    <h2>TEXTURION DATA:</h2>
+    <code>/tiles</code>
+    <div id='items'>
+    </div>
+  </body>
+</html>

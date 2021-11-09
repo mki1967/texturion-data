@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script>
+function makeUl( names ){
+    const texturionPrefix="https://mki1967.github.io/texturion/?input=";
+    let base=document.URL;
+    let ul="<ul>\n";
+    for( let i=0; i<names.length; i++){
+	url=new URL(names[i], base );
+	ul+="<li>"+
+            "<a href='"+texturionPrefix+url+"'>"+names[i]+"</a>"+
+            "</li>\n"
+    }
+    ul+="</ul>\n";
+    return ul;
+}
+window.onload = function(){
+  var names=[];
+  names.push("green-irregular.texturion");
+  names.push("white-irregular.texturion");
+  document.getElementById("items").innerHTML= makeUl( names );
+}
+</script>
+  </head>
+  <body>
+    <h2>TEXTURION DATA:</h2>
+    <code>/irregular</code>
+    <div id='items'>
+    </div>
+  </body>
+</html>
