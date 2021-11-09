@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script>
+function makeUl( names ){
+    const texturionPrefix="https://mki1967.github.io/texturion/?input=";
+    let base=document.URL;
+    let ul="<ul>\n";
+    for( let i=0; i<names.length; i++){
+	url=new URL(names[i], base );
+	ul+="<li>"+
+            "<a href='"+texturionPrefix+url+"'>"+names[i]+"</a>"+
+            "</li>\n"
+    }
+    ul+="</ul>\n";
+    return ul;
+}
+window.onload = function(){
+  var names=[];
+  names.push("abs-cos-xy.texturion");
+  names.push("abs-sin2-magenta-bright.texturion");
+  names.push("abs-sin2-rb.texturion");
+  names.push("abs-sin2-rc.texturion");
+  names.push("abs-sin2.texturion");
+  names.push("abs-sin.texturion");
+  names.push("abs-sin_xy-blue.texturion");
+  names.push("abs-sin-xy-bright-blue.texturion");
+  names.push("abs-sin-xy-bright-cyan.texturion");
+  names.push("abs-sin-xy-bright-gold.texturion");
+  names.push("abs-sin-xy-bright-green.texturion");
+  names.push("abs-sin-xy-bright-magenta.texturion");
+  names.push("abs-sin-xy-bright-red.texturion");
+  names.push("abs-sin-xy-bright-white.texturion");
+  names.push("abs-sin-xy.texturion");
+  names.push("sin_abs_xy.texturion");
+  document.getElementById("items").innerHTML= makeUl( names );
+}
+</script>
+  </head>
+  <body>
+    <h2>TEXTURION DATA:</h2>
+    <code>/sincos/abs</code>
+    <div id='items'>
+    </div>
+  </body>
+</html>

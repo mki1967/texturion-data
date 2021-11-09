@@ -17,24 +17,19 @@ function makeUl( names ){
 }
 window.onload = function(){
   var names=[];
-  names.push("bricks2.texturion");
-  names.push("bricks3-fat.texturion");
-  names.push("bricks3-fat-white-fugue.texturion");
-  names.push("bricks3.texturion");
-  names.push("bricks4.texturion");
-  names.push("bricks-fat-blue.texturion");
-  names.push("bricks-fat-cyan.texturion");
-  names.push("bricks-fat-white.texturion");
-  names.push("bricks-fat-yellow.texturion");
-  names.push("bricks.texturion");
-  names.push("grey-bricks3-fat-white-fugue.texturion");
+  names.push("max_cos_x_cos_y-white.texturion");
+  names.push("max_cos_x_minus_y_cos_x_plus_y-blue.texturion");
+  names.push("max_cos_xx_cos_yy-white.texturion");
+  names.push("min_cos_x_cos_y-blue.texturion");
+  names.push("min_cos_x_cos_y-white.texturion");
+  names.push("min_cos_x_minus_y_cos_x_plus_y-blue.texturion");
   document.getElementById("items").innerHTML= makeUl( names );
 }
 </script>
   </head>
   <body>
     <h2>TEXTURION DATA:</h2>
-    <code>/bricks</code>
+    <code>/sincos/minmax</code>
     <div id='items'>
     </div>
   </body>

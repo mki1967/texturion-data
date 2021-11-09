@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script>
+function makeUl( names ){
+    const texturionPrefix="https://mki1967.github.io/texturion/?input=";
+    let base=document.URL;
+    let ul="<ul>\n";
+    for( let i=0; i<names.length; i++){
+	url=new URL(names[i], base );
+	ul+="<li>"+
+            "<a href='"+texturionPrefix+url+"'>"+names[i]+"</a>"+
+            "</li>\n"
+    }
+    ul+="</ul>\n";
+    return ul;
+}
+window.onload = function(){
+  var names=[];
+  names.push("cos_2y_plus_cos_2x.texturion");
+  names.push("cos_sqrt_xx_yy.texturion");
+  names.push("cos_x_times_cos_y.texturion");
+  names.push("cos_xx_yy.texturion");
+  names.push("cos_y-xx.texturion");
+  names.push("cos_y-xxx.texturion");
+  names.push("cos_y-xx_x_yy.texturion");
+  names.push("diamonts-cos-big.texturion");
+  names.push("diamonts-cos-big-yellow.texturion");
+  names.push("diamonts-cos.texturion");
+  names.push("r-sin-bg-cos.texturion");
+  names.push("sin_2y_plus_sin_2x.texturion");
+  names.push("sin-cos-lines-white.texturion");
+  names.push("sin-fish-dark-green-flat.texturion");
+  names.push("sin-fish-white.texturion");
+  names.push("sin_x_cos_sin.texturion");
+  names.push("sin_x_cos_y_brown.texturion");
+  names.push("sin_x_cos_y_green.texturion");
+  names.push("sin_y_plus_sin_x.texturion");
+  names.push("sin_y_times_cos_x.texturion");
+  names.push("sin_y_times_sin_x.texturion");
+  document.getElementById("items").innerHTML= makeUl( names );
+}
+</script>
+  </head>
+  <body>
+    <h2>TEXTURION DATA:</h2>
+    <code>/sincos</code>
+    <div id='items'>
+    </div>
+  </body>
+</html>
