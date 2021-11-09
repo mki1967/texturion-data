@@ -1,0 +1,1 @@
+{"label":"grey-waves-horizontal","R":"G(x,y)","G":"0.15*(1.0+cos(4.0*PI*y))+0.5","B":"G(x,y)","A":"1.0"}

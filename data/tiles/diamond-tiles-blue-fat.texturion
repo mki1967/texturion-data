@@ -1,0 +1,1 @@
+{"label":"diamond-tiles-blue-fat","R":"G(x,y)","G":"(abs(x+y)<0.1 || abs(x-y)< 0.1 )?1.0:0.0","B":"1.0","A":"1.0"}

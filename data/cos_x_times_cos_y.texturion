@@ -1,0 +1,1 @@
+{"label":"cos_x_times_cos_y","R":"cos(0.5*PI*(x))*cos(0.5*PI*(y))","G":"R(x,y)","B":"R(x,y)","A":"1.0"}

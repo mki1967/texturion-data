@@ -1,0 +1,1 @@
+{"label":"sin_2y_plus_sin_2x","R":"0.25*(sin(2.0*PI*y)+sin(2.0*PI*x))+0.5","G":"R(x,y)","B":"R(x,y)","A":"1.0"}

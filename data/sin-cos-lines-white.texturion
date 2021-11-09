@@ -1,0 +1,1 @@
+{"label":"sin-cos-lines-white","R":"B(x,y)","G":"B(x,y)","B":"0.5+0.5*max( sin(8.0*PI*(y-0.5*sin(2.0*PI*x))) , sin(8.0*PI*(y-0.5*cos(2.0*PI*x))) )","A":"1.0"}

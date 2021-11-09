@@ -1,0 +1,1 @@
+{"label":"min_cos_x_minus_y_cos_x_plus_y-blue","R":"0.0","G":"0.0","B":"0.5+0.5*min(cos(2.0*PI*(x-y)),cos(2.0*PI*(x+y)))","A":"1.0"}

@@ -1,0 +1,1 @@
+{"label":"green-grained-vertical","R":"0.2","G":"0.7+0.3*sin(8.0*PI*x)*cos(2.0*PI*y)","B":"0.2","A":"1.0"}

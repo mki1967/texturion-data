@@ -1,0 +1,1 @@
+{"label":"myTexture","R":"0.0; }\nfloat F(float x, float y){ return abs(x*y)","G":"(x=2.0*x, y=2.0*y, F(x,y))","B":"0.0","A":"1.0"}

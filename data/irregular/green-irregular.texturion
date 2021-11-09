@@ -1,0 +1,1 @@
+{"label":"green-irregular","R":"0.2","G":"0.6+0.4*sin(4.0*PI*(y))*cos(1.0*PI*(y)) * sin(4.0*PI*(x))*cos(1.0*PI*(x))","B":"0.2","A":"1.0"}

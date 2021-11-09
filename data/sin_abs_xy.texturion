@@ -1,0 +1,1 @@
+{"label":"sin_abs_xy","R":"0.5*(1.0+sin(8.0*PI*abs(x*y)))","G":"0.5*(1.0+cos(8.0*PI*abs(x*y)))","B":"G(x,y)","A":"1.0"}

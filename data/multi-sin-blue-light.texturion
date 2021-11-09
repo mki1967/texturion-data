@@ -1,0 +1,1 @@
+{"label":"multi-sin-blue-light","R":"0.6*B(x,y)","G":"0.6*B(x,y)","B":"0.7+0.5*sin(8.0*PI*(y-0.5*sin(PI*x)))","A":"1.0"}

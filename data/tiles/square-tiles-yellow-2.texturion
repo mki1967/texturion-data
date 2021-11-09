@@ -1,0 +1,1 @@
+{"label":"square-tiles-yellow-2","R":"(abs(y)<0.02 || abs(x)< 0.02 )?0.0: 0.9+0.1*sin(8.0*PI*x)*cos(8.0*PI*y)","G":"R(x,y)","B":"0.0","A":"1.0"}

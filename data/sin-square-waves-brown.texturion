@@ -1,0 +1,1 @@
+{"label":"sin-square-waves-brown","R":"0.7+0.3*sin(8.0*PI*max(abs(x),abs(y)))","G":"0.6*R(x,y)","B":"0.4*R(x,y)","A":"1.0"}

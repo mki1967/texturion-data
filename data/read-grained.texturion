@@ -1,0 +1,1 @@
+{"label":"read-grained","R":"0.7+G(x,y)","G":"0.1*sin(8.0*PI*x)*cos(8.0*PI*y)","B":"G(x,y)","A":"1.0"}

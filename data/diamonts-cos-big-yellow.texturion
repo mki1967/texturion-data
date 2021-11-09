@@ -1,0 +1,1 @@
+{"label":"diamonts-cos-big-yellow","R":"0.7+0.3*max( cos(4.0*PI*(y-x)), cos(4.0*PI*(y+x)) )","G":"R(x,y)","B":"0.0","A":"1.0"}

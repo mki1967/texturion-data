@@ -1,0 +1,1 @@
+{"label":"star-tiles-fat-white","R":"G(x,y)","G":"(abs(y)<0.1 || abs(x)< 0.1 || abs(x-y)<0.1 || abs(x+y)<0.1 )?0.0:1.0","B":"G(x,y)","A":"1.0"}

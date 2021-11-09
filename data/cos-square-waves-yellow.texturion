@@ -1,0 +1,1 @@
+{"label":"cos-square-waves-yellow","R":"G(x,y)","G":"0.6+0.4*cos(8.0*PI*max(abs(y),abs(x)))","B":"0.0","A":"1.0"}

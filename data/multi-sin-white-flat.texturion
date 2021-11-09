@@ -1,0 +1,1 @@
+{"label":"multi-sin-white-flat","R":"B(x,y)","G":"B(x,y)","B":"0.8+0.2*sin(8.0*PI*(y-0.1*sin(PI*x)))","A":"1.0"}

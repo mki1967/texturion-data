@@ -1,0 +1,1 @@
+{"label":"cos-square-waves-magenta","R":"B(x,y)","G":"0.0","B":"0.6+0.4*cos(8.0*PI*max(abs(y),abs(x)))","A":"1.0"}

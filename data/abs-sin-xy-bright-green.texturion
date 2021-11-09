@@ -1,0 +1,1 @@
+{"label":"abs-sin-xy-bright-green","R":"0.0","G":"0.5+abs(abs(y)-abs(sin(PI*x)))*abs(abs(x)-abs(sin(PI*y)))","B":"0.0","A":"1.0"}

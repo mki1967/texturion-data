@@ -1,0 +1,1 @@
+{"label":"yellow-skew-waves","R":"0.5*(1.0+sin(3.0*PI*(y+x)))","G":"R(x,y)","B":"0.0","A":"1.0"}

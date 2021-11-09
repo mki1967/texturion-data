@@ -1,0 +1,1 @@
+{"label":"square-tiles-fat-magenta","R":"0.7+0.3*G(x,y)","G":"(abs(y)<0.1 || abs(x)< 0.1 )?1.0:0.0","B":"0.7+0.3*G(x,y)","A":"1.0"}

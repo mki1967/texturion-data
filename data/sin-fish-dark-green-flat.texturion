@@ -1,0 +1,1 @@
+{"label":"sin-fish-dark-green-flat","R":"0.0","G":"0.3+0.3*max( sin(8.0*PI*(y-0.25*sin(0.5*PI*x))) , sin(8.0*PI*(y+0.25*sin(0.5*PI*x))) )","B":"0.0","A":"1.0"}

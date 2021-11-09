@@ -1,0 +1,1 @@
+{"label":"violet_x_green_waves","R":"0.5*G(y,x)","G":"0.40*(1.0+cos(2.0*PI*x))+0.2","B":"0.9*G(y,x)","A":"1.0"}

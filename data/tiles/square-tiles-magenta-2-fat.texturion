@@ -1,0 +1,1 @@
+{"label":"square-tiles-magenta-2-fat","R":"(abs(y)<0.1 || abs(x)< 0.1 )?0.0: 0.8+0.2*sin(8.0*PI*x)*cos(8.0*PI*y)","G":"0.0","B":"R(x,y)","A":"1.0"}

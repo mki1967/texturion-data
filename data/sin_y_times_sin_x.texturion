@@ -1,0 +1,1 @@
+{"label":"sin_y_times_sin_x","R":"0.5*(1.0+sin(PI*y)*sin(PI*x))","G":"R(x,y)","B":"R(x,y)","A":"1.0"}

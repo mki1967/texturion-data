@@ -1,0 +1,1 @@
+{"label":"cos_2y_plus_cos_2x","R":"0.25*(cos(2.0*PI*y)+cos(2.0*PI*x))+0.5","G":"R(x,y)","B":"R(x,y)","A":"1.0"}

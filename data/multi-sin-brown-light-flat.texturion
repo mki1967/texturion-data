@@ -1,0 +1,1 @@
+{"label":"multi-sin-brown-light-flat","R":"0.7+0.5*sin(8.0*PI*(y-0.1*sin(PI*x)))","G":"0.6*R(x,y)","B":"0.6*R(x,y)","A":"1.0"}

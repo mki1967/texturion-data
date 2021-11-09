@@ -1,0 +1,1 @@
+{"label":"boulder-white","R":"B(x,y)","G":"B(x,y)","B":"0.1+0.8*cos(0.5*PI*(x*x))*cos(0.5*PI*(y*y))","A":"1.0"}

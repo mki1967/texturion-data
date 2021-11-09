@@ -1,0 +1,1 @@
+{"label":"abs-cos-xy","R":"abs(abs(y)-abs(cos(PI*x)))*abs(abs(x)-abs(cos(PI*y)))","G":"0.0","B":"0.0","A":"1.0"}

@@ -1,0 +1,1 @@
+{"label":"sin_x_cos_y_brown","R":"0.7+0.3*sin(4.0*PI*x)*cos(4.0*PI*y)","G":"0.7*R(x,y)","B":"0.9*G(x,y)","A":"1.0"}
